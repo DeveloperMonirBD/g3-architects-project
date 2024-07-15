@@ -14,7 +14,7 @@
 }
 
 .text-primary {
-  color: #ff900e;
+    color: #ff900e;
 }
 
 /* dark-02 */
@@ -32,31 +32,28 @@
 }
 
 .btn-primary {
-  background-color: #ff900e;
-  color: #fff;
-  font-size: 1.25rem;
-  font-weight: 600;
-  padding: 20px 30px;
-  border: none;
-  border-radius: 8px;
+    background-color: #ff900e;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 8px;
 }
 
-main{
-  max-width: 1440px;
-  margin-inline: auto;
+main {
+    max-width: 1440px;
+    margin-inline: auto;
 }
 
-main > section{
-  margin-top: 130px;
+main > section {
+    margin-top: 130px;
 }
 
 .section-title {
-  font-size: 2.8rem;
-  font-weight: 700;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
-
-
-
 
 /* navbar styles */
 .brand {
@@ -74,7 +71,8 @@ main > section{
     font-size: 18px;
     font-weight: 500;
 }
-.navbar, .banner {
+.navbar,
+.banner {
     justify-content: space-between;
     align-items: center;
     max-width: 1440px;
@@ -83,74 +81,102 @@ main > section{
 }
 
 /* banner releted styles */
- .banner {
-  padding-bottom: 30px;
- }
+.banner {
+    padding-bottom: 30px;
+}
 .banner-content {
-  max-width: 850px;
-  margin-inline: auto;
-  text-align: center;
-  margin-bottom: 50px;
+    max-width: 850px;
+    margin-inline: auto;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .banner-title {
-  font-weight: 700;
-  font-size: 4rem;
+    font-weight: 700;
+    font-size: 4rem;
 }
-.banner-image{
-  width: 100%;
+.banner-image {
+    width: 100%;
 }
 
 /* team and feature related styles */
 .teams {
-  align-items: center;
+    align-items: center;
 }
 
 .team-image-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }
 
 .our-features {
-  max-width:  537px;
-  margin-left: 73px;
+    max-width: 537px;
+    margin-left: 73px;
 }
-
-
 
 #quick-list {
-  font-weight: 500;
+    font-weight: 500;
 }
 
+/* some fact releted style */
 
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
 
+.fact-card {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.fact-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
 
+.fact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
 
+.fact-description {
+  max-width: 549px;
+}
 
 /* responsive media query for mobile device */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-link, .teams {
-      flex-direction: column;
+    .navbar,
+    .nav-link,
+    .teams {
+        flex-direction: column;
     }
 
     .team-image-container {
-      grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     .our-features {
-  margin-left: 20px;
+        margin-left: 20px;
+    }
 }
-
-}
-
 
 /* responsive media query for medium size device */
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .teams {
-    flex-direction: column;
-  }
-  .our-features {
-    margin: 50px auto;
-  }
+    .teams {
+        flex-direction: column;
+    }
+    .our-features {
+        margin: 50px auto;
+    }
 }
